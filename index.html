@@ -3,9 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FLOWER SHOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
-<body>
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Flower Girl</a>
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul id="nav-menu" class="hidden lg:flex space-x-4">
+                <li><a href="#" class="hover:text-red-300">Home</a></li>
+                <li><a href="#" class="hover:text-red-300">About</a></li>
+                <li><a href="#" class="hover:text-red-300">Shop</a></li>
+                <li><a href="#" class="hover:text-red-300">Contact</a></li>
+            </ul>
+            <button class="hidden lg:block bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600">Shop Now</button>
+        </div>
+    </nav>
+    
+    
+       <div class="container mx-auto mt-8">
+        <h1 class="text-3xl font-bold mb-4">Shop</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-1-300x300.jpg" class="w-full object-cover" alt="Picture">
+            <div class="p-4">
+                <div class="flex justify-between items-center">
+                    <span class="text-xl font-bold">$800</span>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                </div>
+            </div>
+            </div>
+            <!-- card ends here -->
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-2-300x300.jpg" class="w-full object-cover" alt="Picture">
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold">$280</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends here -->
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-3-300x300.jpg" class="w-full object-cover" alt="Picture">
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold">$625</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends here -->
+        
+    
+        </div>
+       </div>
+    
+       <div class="container mx-auto mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-4-300x300.jpg" class="w-full object-cover" alt="Picture">
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold">$1200</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends here -->
+    
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-7-300x300.jpg" class="w-full object-cover" alt="Picture">
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold">$400</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends here -->
+    
+            <!-- card starts here -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden mx-3">
+                <img src="product-9-300x300.jpg" class="w-full object-cover" alt="Picture">
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold">$850</span>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Add a cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card ends here --> 
+        </div>
+       </div>
+
+
+    
+       <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <p>&copy; 2024 flower girl. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#"><i class='bx bxl-instagram py-2 px-2 bg-white rounded-full text-red-300'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle py-2 px-2 bg-white rounded-full text-red-300'></i></a>
+                <a href="#"><i class='bx bxl-twitter py-2 px-2 bg-white rounded-full text-red-300'></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    
     
 </body>
+
 </html>
